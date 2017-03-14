@@ -65,7 +65,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: standrews
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/theprimepackage/blog.git
+  branch: gh-pages
