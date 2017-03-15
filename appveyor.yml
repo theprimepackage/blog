@@ -1,0 +1,24 @@
+branches:
+  only:
+    - master
+init:
+  - git config --global core.autocrlf true
+environment:
+  access_token:
+    secure: 56AsFWvntdIrtor5OhcxFxcYTqzkqVgD8e8sgDOPmE9KWblNFgEZ0AT4xMtAPgIB
+install:
+  - npm install -g npm
+  - npm install -g hexo-cli
+  - npm install
+cache:
+  - node_modules -> package.json
+  # Don't actually build.
+build: off
+test: off
+deploy_script:
+  # See http://www.appveyor.com/docs/how-to/git-push for more info
+  - git config --global credential.helper store
+  - git config --global user.email "taylorjdawson@gmail.com" 
+  - git config --global user.name "Taylor Dawson"
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+  - hexo deploy --generate

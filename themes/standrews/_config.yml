@@ -5,7 +5,7 @@ menu:
   Contact: /contact
 
 # Favicon
-favicon_url:
+favicon_url: images/newlogo.svg
 
 # Default Image for Posts
 default_cover_image: images/default.jpg
