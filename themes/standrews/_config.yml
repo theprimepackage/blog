@@ -5,7 +5,7 @@ menu:
   Contact: /contact
 
 # Favicon
-favicon_url: images/brainspil.svg
+favicon_url: images/brainspill.svg
 
 # Default Image for Posts
 default_cover_image: images/default.jpg
@@ -26,4 +26,4 @@ behance_url:
 fivehundredpx_url:
 
 # Disqus comments
-disqus_shortname:
+disqus_shortname: blog-taylorjdawson-com
