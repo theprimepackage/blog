@@ -2,7 +2,7 @@
 menu:
   Home: /
   About: /about
-  Contact: /contact
+  Contact:
 
 # Favicon
 favicon_url: images/brainspill.svg
@@ -11,7 +11,8 @@ favicon_url: images/brainspill.svg
 default_cover_image: images/default.jpg
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: UA-93892722-1
+
 
 # Social Accounts
 email_url: 
