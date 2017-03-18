@@ -225,3 +225,16 @@ span.footnote {
     color: #24B1E6;
 }
 
+.middotDivider::after {
+    content: "·";
+}
+
+.u-fontSize12 {
+    font-size: 12px!important;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+

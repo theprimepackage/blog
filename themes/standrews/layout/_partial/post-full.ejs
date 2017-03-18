@@ -13,6 +13,8 @@
       <h1><%- item.title || "Untitled" %></h1>
       <hr>
       <span class="date"><%= item.date.format(config.date_format) %></span>
+	  <span class="middotDivider u-fontSize12"></span>
+	  <span class="date"> <%- readingTime(page.content) %></span>
     </div>
 
     <%- item.content %>
