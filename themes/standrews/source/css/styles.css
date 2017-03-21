@@ -39,10 +39,22 @@ p a:hover {
 	border-bottom: 1px solid #000;
 }
 
+/*Links inside of h6 heading */
+h6 a {
+	border-bottom: 1px dotted #555;
+}
+
+h6 a:hover {
+	border-bottom: 1px solid #000;
+}
+
+
 blockquote {
 	background-color: #f5f5f5;
 	border-left: 3px solid #555;
 	padding: 30px;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .gutter {
@@ -227,10 +239,12 @@ span.footnote {
 
 .middotDivider::after {
     content: "·";
+	margin-left: .2em;
+	margin-right: .2em;
 }
 
 .u-fontSize12 {
-    font-size: 12px!important;
+    font-size: 14px!important;
 }
 
 .parallax-window {
@@ -245,3 +259,20 @@ span.footnote {
 	width: 100%;
 }
 
+img.fluffrd {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: .15em;
+}
+
+img.fluff {
+	margin-top: 1.3em;
+	margin-bottom: 1em;
+}
+img.leftfloat {
+	float: left;
+}
+
+a.tooltiplink {
+	color: #24B1E6; 
+}

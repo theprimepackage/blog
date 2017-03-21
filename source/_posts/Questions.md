@@ -21,7 +21,8 @@ Alexis Zorba: I spit on this agony!
 
 When we showed up on this planet I believe that we were all given a flashlight. We can point it at whatever is around us.
 
-{% asset_img flid.svg %}
+{% img img-fluid rounded mx-auto d-block fluff /images/flid.svg %}
+
 
 Sometimes the light will illuminate the darkness. Sometimes we’ll have to take a step closer to get a better view. Or it could be that we just need to look at the darkness from a different angle. On occasion, the darkness dissipates and we find what we are looking for. In other cases, it remains dark. And what’s even more frustrating is that, “As the circle of light increases, so does the circumference of darkness around it.”{% tooltip "Albert Einstein" %} But the thing is that there are those who don't move their flashlight around. Heck, some will just leave it off. I don’t understand this. I could never live like that. I have to know. There are some answers that I relentlessly pursue and others that I’ll table for the time being. If the answer does not yield itself to me, I hanker after it with increased tenacity.
 
@@ -39,4 +40,4 @@ Go forth and question. Be a 3-year-old all over again. Love the discovery. Stay 
 
 {% endblockquote %}
 
-For those interested, I highly suggest you check out [this](https://youtu.be/u9hauSrihYQ) Ted Talk by Micheal Stevens, as well as, his YouTube channel [Vsauce](https://www.youtube.com/user/Vsauce). You will not be disappointed.
+<h6> For those interested, I highly suggest you check out [this](https://youtu.be/u9hauSrihYQ) Ted Talk by Micheal Stevens, as well as, his YouTube channel [Vsauce](https://www.youtube.com/user/Vsauce). You will not be disappointed. </h6>
